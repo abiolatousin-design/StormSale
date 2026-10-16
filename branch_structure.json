@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-68-state-optimistic-ui-revert-logic",
+    "fix/issue-68-state-optimistic-ui-revert-logic-r2",
+    "fix/issue-94-test-multi-resolution-visual-regression",
+    "fix/issue-94-test-multi-resolution-visual-regression-r2",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-68-state-optimistic-ui-revert-logic": "main",
+    "fix/issue-68-state-optimistic-ui-revert-logic-r2": "fix/issue-68-state-optimistic-ui-revert-logic",
+    "fix/issue-94-test-multi-resolution-visual-regression": "main",
+    "fix/issue-94-test-multi-resolution-visual-regression-r2": "fix/issue-94-test-multi-resolution-visual-regression",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-68-state-optimistic-ui-revert-logic",
+    "fix/issue-94-test-multi-resolution-visual-regression",
+    "origin",
+    "fix/issue-68-state-optimistic-ui-revert-logic-r2",
+    "fix/issue-94-test-multi-resolution-visual-regression-r2"
+  ]
+}
